@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Психолог Моксмикс</title>
+    <link rel="stylesheet" href="/staticstyles/stylesall.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="logo">Тот самый психолог</div>
+                <nav class="nav">
+                    <a href="#about" class="nav__link">Обо мне</a>
+                    <a href="#services" class="nav__link">Услуги</a>
+                    <a href="#cases" class="nav__link">Кейсы</a>
+                    <a href="#contacts" class="nav__link">Контакты</a>
+                    <a href="/admin.php" class="nav__link">Admin</a>
+                </nav>
+                <button class="menu-toggle" aria-label="Меню">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero__content">
+                    <h1 class="hero__title">Великий Моксмикс</h1>
+                    <p class="hero__subtitle">Психолог. Когнитивно-поведенческая терапия</p>
+                    <p class="hero__text">Помогаю обрести внутреннюю гармонию и построить здоровые отношения с собой и окружающими</p>
+                    <a href="#contacts" class="btn">Записаться на консультацию</a>
+                </div>
+                <div class="hero__decoration">
+                    <div class="circle circle--large"></div>
+                    <div class="circle circle--medium"></div>
+                    <div class="circle circle--small"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section about">
+            <div class="container">
+                <h2 class="section__title">Обо мне</h2>
+                <div class="about__content">
+                    <div class="about__text">
+                        <p>Я - практикующий психолог с 8-летним опытом работы в когнитивно-поведенческой терапии (КПТ).</p>
+                        <p>Окончил МГУ им. М.В. Ломоносова по специальности "Клиническая психология", регулярно прохожу повышение квалификации и участвую в профессиональных конференциях.</p>
+                        <p>В своей работе я придерживаюсь принципов доказательной психологии и создаю безопасное пространство для каждого клиента.
+                            Помогаю всем и каждому!
+                        </p>
+                        <div class="stats">
+                            <div class="stat">
+                                <div class="stat__number" data-count="250">0</div>
+                                <div class="stat__label">клиентов</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat__number" data-count="8">0</div>
+                                <div class="stat__label">лет практики</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat__number" data-count="96">0</div>
+                                <div class="stat__label">% удовлетворённости</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about__image">
+                        <div class="image-frame">
+                            <div class="image-placeholder"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section services">
+            <div class="container">
+                <h2 class="section__title">Услуги</h2>
+                <div class="services__grid">
+                    <div class="service-card">
+                        <div class="service-card__icon">🧠</div>
+                        <h3 class="service-card__title">Индивидуальная терапия</h3>
+                        <p class="service-card__text">Работа с тревожными расстройствами, депрессией, паническими атаками, ОКР и другими состояниями.</p>
+                        <div class="service-card__price">от 3 500 ₽/сессия</div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-card__icon">💑</div>
+                        <h3 class="service-card__title">Парная терапия</h3>
+                        <p class="service-card__text">Решение конфликтов, улучшение коммуникации, восстановление доверия и близости в отношениях.</p>
+                        <div class="service-card__price">от 5 000 ₽/сессия</div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-card__icon">👨‍👩‍👧</div>
+                        <h3 class="service-card__title">Семейная терапия</h3>
+                        <p class="service-card__text">Гармонизация семейных отношений, решение межпоколенческих конфликтов, детско-родительские отношения.</p>
+                        <div class="service-card__price">от 6 000 ₽/сессия</div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-card__icon">📚</div>
+                        <h3 class="service-card__title">Групповые программы</h3>
+                        <p class="service-card__text">Тематические группы по управлению стрессом, эмоциональному интеллекту и личностному росту.</p>
+                        <div class="service-card__price">от 15 000 ₽/курс</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cases" class="section cases">
+            <div class="container">
+                <h2 class="section__title">Кейсы</h2>
+                <div class="cases__slider">
+                    <div class="case active">
+                        <div class="case__content">
+                            <h3 class="case__title">Преодоление социофобии</h3>
+                            <p class="case__client">Клиент: Мужчина, 28 лет</p>
+                            <p class="case__duration">Продолжительность: 12 сеансов</p>
+                            <p class="case__problem">Проблема: Страх социальных ситуаций, избегание любых контактов, трудности на работе.</p>
+                            <p class="case__solution">Решение: Постепенная экспозиция, когнитивная реструктуризация искаженных убеждений, тренировка социальных навыков.</p>
+                            <p class="case__result">Результат: Возвращение к полноценной социальной жизни, повышение по службе, новые знакомства.</p>
+                        </div>
+                        <div class="case__graphic">
+                            <div class="progress-bar">
+                                <div class="progress-bar__before" style="height: 20%">До</div>
+                                <div class="progress-bar__after" style="height: 85%">После</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case">
+                        <div class="case__content">
+                            <h3 class="case__title">Выход из депрессии</h3>
+                            <p class="case__client">Клиент: Женщина, 35 лет</p>
+                            <p class="case__duration">Продолжительность: 16 сеансов</p>
+                            <p class="case__problem">Проблема: Потеря интереса к жизни, хроническая усталость, суицидальные мысли после развода.</p>
+                            <p class="case__solution">Решение: Поведенческая активация, работа с негативными автоматическими мыслями, восстановление самооценки.</p>
+                            <p class="case__result">Результат: Возвращение к работе, новые увлечения, стабильное эмоциональное состояние.</p>
+                        </div>
+                        <div class="case__graphic">
+                            <div class="progress-bar">
+                                <div class="progress-bar__before" style="height: 10%">До</div>
+                                <div class="progress-bar__after" style="height: 75%">После</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case">
+                        <div class="case__content">
+                            <h3 class="case__title">Семейный конфликт</h3>
+                            <p class="case__client">Клиенты: Семейная пара, 32 и 34 года</p>
+                            <p class="case__duration">Продолжительность: 8 сеансов</p>
+                            <p class="case__problem">Проблема: Постоянные ссоры, недопонимание, угроза развода после рождения ребенка.</p>
+                            <p class="case__solution">Решение: Тренировка навыков коммуникации, распределение ролей, работа с ожиданиями.</p>
+                            <p class="case__result">Результат: Восстановление доверия, выработка новых стратегий взаимодействия, гармонизация отношений.</p>
+                        </div>
+                        <div class="case__graphic">
+                            <div class="progress-bar">
+                                <div class="progress-bar__before" style="height: 25%">До</div>
+                                <div class="progress-bar__after" style="height: 90%">После</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-controls">
+                        <button class="slider-prev">←</button>
+                        <div class="slider-dots"></div>
+                        <button class="slider-next">→</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section cta">
+            <div class="container">
+                <div class="cta__content">
+                    <h2 class="cta__title">Готовы начать путь к изменениям?</h2>
+                    <p class="cta__text">Запишитесь на первую консультацию и получите индивидуальный план работы</p>
+                    <a href="#contacts" class="btn btn--large">Записаться</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts" class="section contacts">
+            <div class="container">
+                <h2 class="section__title">Контакты</h2>
+                <div class="contacts__grid">
+                    <div class="contacts__info">
+                        <h3 class="contacts__subtitle">Свяжитесь со мной</h3>
+                        <p class="contacts__text">Я отвечаю на сообщения в течение 24 часов в рабочие дни</p>
+                        <ul class="contacts__list">
+                            <li class="contacts__item">
+                                <span class="contacts__icon">📱</span>
+                                <a href="tel:+79161234567" class="contacts__link">+7 123456789</a>
+                            </li>
+                            <li class="contacts__item">
+                                <span class="contacts__icon">✉️</span>
+                                <a href="mailto:anna@psychologist.ru" class="contacts__link">info@mail.ru</a>
+                            </li>
+                            <li class="contacts__item">
+                                <span class="contacts__icon">📍</span>
+                                <span class="contacts__link">Москва, ул. Психологическая, 15 (м. Парк Культуры)</span>
+                            </li>
+                            <li class="contacts__item">
+                                <span class="contacts__icon">🕒</span>
+                                <span class="contacts__link">Пн-Пт: 10:00 - 20:00, Сб: 11:00 - 16:00</span>
+                            </li>
+                        </ul>
+                        <div class="social-links">
+                            <a href="#" class="social-link">Telegram</a>
+                            <a href="#" class="social-link">VK</a>
+                        </div>
+                    </div>
+
+<div class="contacts__form">
+    <form id="appointment-form" class="form" action="/submit_form" method="POST">
+        <div class="form__group">
+            <input type="text" id="name" name="name" placeholder="Ваше имя" required>
+        </div>
+        <div class="form__group">
+            <input type="email" id="email" name="email" placeholder="Email" required>
+        </div>
+        <div class="form__group">
+            <input type="tel" id="phone" name="phone" placeholder="Телефон" required>
+        </div>
+        <div class="form__group">
+            <select id="service" name="service" required>
+                <option value="">Выберите услугу</option>
+                <option value="individual">Индивидуальная терапия</option>
+                <option value="couple">Парная терапия</option>
+                <option value="family">Семейная терапия</option>
+                <option value="group">Групповая программа</option>
+            </select>
+        </div>
+        <div class="form__group">
+            <textarea id="message" name="message" placeholder="Кратко опишите ваш запрос" required></textarea>
+        </div>
+        <button type="submit" class="btn">Отправить</button>
+    </form>
+</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__logo">Пространство гармонии</div>
+                <div class="footer__copy">© 2025 Моксмикс. Все права защищены.</div>
+                <div class="footer__links">
+                    <a href="#" class="footer__link">Политика конфиденциальности</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
